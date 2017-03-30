@@ -1,0 +1,72 @@
+html, body {
+	height: 100%;
+	font-family: 'Lato', sans-serif;
+}
+.bg-yellow {
+	background-color: rgb(252, 222, 126);
+}
+.container {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.blocks {
+	margin: 0 15px;
+	background-color: #fff;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 361px;
+	box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+}
+.block__price {
+	width: 100%;
+	font-weight: 900;
+	font-size: 44px;
+	text-align: center;
+	color: #02995b;
+	padding: 25px;
+}
+.block__img1 {
+	position: relative;
+	left: 5px;
+}
+.block__img2 {
+	margin-top: 10px;
+	margin-bottom: 35px;
+	position: relative;
+	left: 5px;
+}
+.block__title {
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+.block__descr {
+	text-align: center;
+	line-height: 1.4;
+	margin-bottom: 30px;
+}
+.block1, .block3 {
+	height: 441px;
+}
+.block2 {
+	height: 500px;
+}
+.gold__descr {
+	margin-bottom: 40px;
+}
+.gold__img2 {
+	margin-bottom: 40px;
+}
+.gold__title {
+	margin-bottom: 30px;
+}
+.gold__img1 {
+	margin-top: 20px;
+}
+.gold__price {
+	margin-top: 20px;
+}
